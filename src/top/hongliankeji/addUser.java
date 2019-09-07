@@ -9,6 +9,7 @@ public class addUser extends javax.servlet.http.HttpServlet {
         request.setCharacterEncoding("utf-8");
         String userName = request.getParameter("userName");
         String userPwd = request.getParameter("pwd");
+        String userAge = request.getParameter("userAge");
         System.out.printf(userName + "  "+userPwd);
     }
 
